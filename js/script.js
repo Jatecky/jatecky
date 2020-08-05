@@ -2,6 +2,3 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
 if (!isChrome){
 	$('#iframeAudio').remove()
 }
-else {
-	$('#playAudio').remove()
-}
